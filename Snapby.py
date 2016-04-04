@@ -3,8 +3,8 @@ from tkinter.filedialog import askopenfilename
 from nltk.util import ngrams
 import webbrowser
 
-app_id = '6XIVPtSr1oEE6WeFi5RPARxZP52jTZ99GJ8Dz9du'
-client_secret = '2A-b8xB6kzmeZJp7suqstJ3L67BzmMcoc-ehOT9b'
+app_id = ''
+client_secret = ''
 
 clarifai_api = ClarifaiApi(app_id, client_secret)
 
